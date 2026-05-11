@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>YowaimoCat | VTuber Fortnite Streamer</title>
+  <meta name="description" content="Official links for YowaimoCat, a VTuber Fortnite streamer live on Twitch, Kick, YouTube, TikTok, Facebook Gaming, and Discord." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Russo+One&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --black: #0B0E17;
+      --dark-blue: #0D1B3D;
+      --white: #FFFFFF;
+      --electric-blue: #148CFF;
+      --soft-blue: #8BCBFF;
+      --glow: rgba(20, 140, 255, 0.75);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Orbitron", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(20, 140, 255, 0.18), transparent 34%),
+        linear-gradient(180deg, #050713 0%, var(--black) 45%, #02040A 100%);
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+      padding: 28px 16px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(20, 140, 255, 0.55);
+      border-radius: 28px;
+      background:
+        linear-gradient(rgba(11, 14, 23, 0.22), rgba(11, 14, 23, 0.92)),
+        url("Night Sky Photo General Twitch Banner (1).png");
+      background-size: cover;
+      background-position: center;
+      box-shadow:
+        0 0 24px rgba(20, 140, 255, 0.35),
+        inset 0 0 26px rgba(20, 140, 255, 0.15);
+      padding: 34px 22px 28px;
+    }
+
+    .logo-wrap {
+      width: 148px;
+      height: 148px;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      background: rgba(13, 27, 61, 0.78);
+      border: 2px solid rgba(139, 203, 255, 0.9);
+      box-shadow:
+        0 0 18px var(--glow),
+        0 0 42px rgba(20, 140, 255, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--white);
+      text-shadow:
+        0 0 8px rgba(255, 255, 255, 0.65),
+        0 0 18px var(--glow);
+    }
+
+    .subtitle {
+      margin: 10px 0 0;
+      font-family: "Russo One", Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--soft-blue);
+      text-shadow: 0 0 10px rgba(20, 140, 255, 0.8);
+    }
+
+    .tagline {
+      margin: 18px auto 0;
+      max-width: 420px;
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 13px;
+      line-height: 1.65;
+      font-family: Arial, sans-serif;
+    }
+
+    .links {
+      margin-top: 18px;
+    }
+
+    .link {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      min-height: 58px;
+      margin: 12px 0;
+      padding: 16px 18px;
+      border-radius: 16px;
+      border: 1px solid rgba(20, 140, 255, 0.55);
+      background:
+        linear-gradient(135deg, rgba(13, 27, 61, 0.92), rgba(11, 14, 23, 0.96));
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      box-shadow:
+        0 0 14px rgba(20, 140, 255, 0.18),
+        inset 0 0 16px rgba(20, 140, 255, 0.08);
+      transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .link:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 255, 255, 0.9);
+      box-shadow:
+        0 0 20px rgba(20, 140, 255, 0.58),
+        inset 0 0 18px rgba(20, 140, 255, 0.16);
+    }
+
+    .primary {
+      background:
+        linear-gradient(135deg, #0D1B3D 0%, #126CFF 55%, #8BCBFF 100%);
+      color: #FFFFFF;
+      border-color: rgba(255, 255, 255, 0.75);
+      box-shadow:
+        0 0 22px rgba(20, 140, 255, 0.65),
+        inset 0 0 18px rgba(255, 255, 255, 0.16);
+    }
+
+    .icon {
+      font-size: 22px;
+    }
+
+    .footer {
+      margin-top: 22px;
+      color: rgba(255, 255, 255, 0.52);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .seo {
+      margin-top: 14px;
+      color: rgba(139, 203, 255, 0.7);
+      font-size: 11px;
+      line-height: 1.6;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="logo-wrap">
+        <img class="logo" src="Logo1.png" alt="YowaimoCat logo">
+      </div>
+
+      <h1>YowaimoCat</h1>
+      <p class="subtitle">VTuber Fortnite Streamer</p>
+
+      <p class="tagline">
+        Chaotic cat energy, Zero Build Fortnite gameplay, live streams, clips, and community.
+      </p>
+    </section>
+
+    <section class="links">
+      <a class="link primary" href="https://www.twitch.tv/yowaim0o" target="_blank">
+        <span class="icon">🎮</span> Twitch
+      </a>
+
+      <a class="link" href="https://kick.com/yowaimocat" target="_blank">
+        <span class="icon">🟢</span> Kick
+      </a>
+
+      <a class="link" href="https://www.youtube.com/@Yowaimocat" target="_blank">
+        <span class="icon">▶️</span> YouTube
+      </a>
+
+      <a class="link" href="https://www.tiktok.com/@yowaimocat_" target="_blank">
+        <span class="icon">🎵</span> TikTok
+      </a>
+
+      <a class="link" href="YOUR_FACEBOOK_LINK_HERE" target="_blank">
+        <span class="icon">🔵</span> Facebook Gaming
+      </a>
+
+      <a class="link" href="https://discord.gg/PfJPjA5pX9" target="_blank">
+        <span class="icon">💬</span> Join the Discord
+      </a>
+    </section>
+
+    <p class="footer">Official YowaimoCat Links</p>
+
+    <p class="seo">
+      VTuber Fortnite streamer • Zero Build Fortnite • Gaming clips • Live streams
+    </p>
+  </main>
+</body>
+</html>
